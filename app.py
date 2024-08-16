@@ -3,7 +3,6 @@ import json
 import os
 import csv
 from datetime import datetime
-from dotenv import load_dotenv
 from langchain.chat_models import ChatOpenAI
 from langchain.schema import HumanMessage, SystemMessage
 from sklearn.feature_extraction.text import TfidfVectorizer
@@ -11,8 +10,6 @@ from sklearn.metrics.pairwise import cosine_similarity
 from PIL import Image
 import random
 
-# Load environment variables
-load_dotenv()
 
 # Configure Streamlit page
 st.set_page_config(page_title="AIbuelita: Salsa Recipes", page_icon="🌶️", layout="wide")
@@ -82,7 +79,7 @@ bot_avatar = Image.open("images/AIbuelita.png")
 # Configure ChatOpenAI client
 chat = ChatOpenAI(
     model_name="gpt-4o-mini",
-    openai_api_key=os.getenv("OPENAI_API_KEY")
+    openai_api_key=os.environ.get("OPENAI_API_KEY")
 )
 
 # Load knowledge and prepare vectorizer
