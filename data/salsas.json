@@ -1,0 +1,249 @@
+{
+    "salsa_recipes": [
+      {
+        "name": "Auténtica Salsa Borracha",
+        "ingredients": [
+          "2 dientes de ajo",
+          "6 chiles pasilla secos, limpios y sin semillas",
+          "1/2 cebolla",
+          "1/2 taza de jugo de naranja",
+          "1/2 taza de pulque",
+          "1 cucharada de granos de pimienta negra enteros",
+          "Queso Cotija desmoronado, para servir",
+          "Aguacate, para servir",
+          "Orégano, para servir",
+          "1 pizca de sal gruesa, para moler",
+          "1 pizca de granos de pimienta negra enteros, para moler"
+        ],
+        "instructions": [
+          "Calienta un comal a fuego alto y asa los chiles pasilla, los dientes de ajo sin pelar y la cebolla hasta que estén ligeramente chamuscados.",
+          "En una olla a fuego medio, calienta el jugo de naranja y el pulque. Agrega los chiles asados y cocina hasta que se ablanden. Retira del fuego y deja enfriar.",
+          "En el comal caliente, tuesta la cucharada de granos de pimienta negra enteros hasta que estén fragantes. Reserva.",
+          "En un molcajete, coloca los chiles pasilla con su líquido de cocción, agrega el ajo asado pelado y la cebolla asada. Muele con una pizca de sal y los granos de pimienta negra tostados hasta obtener una salsa consistente.",
+          "Sirve la salsa en un recipiente y acompaña con queso Cotija desmoronado, aguacate y espolvorea un poco de orégano por encima."
+        ],
+        "spice_level": "Medio-Picante",
+        "flavor_notes": ["Ahumado", "Complejo", "Ligeramente alcohólico"],
+        "pairs_well_with": ["Barbacoa", "Carnitas", "Tacos de carne asada", "Quesadillas"]
+      },
+      {
+        "name": "Guacamole de Pueblo",
+        "ingredients": [
+          "4 tomates grandes, asados y pelados",
+          "4 chiles serranos asados",
+          "Sal al gusto",
+          "1 cebolla mediana, finamente picada",
+          "2 cucharadas de orégano molido",
+          "6 aguacates, pelados y cortados en cubos"
+        ],
+        "instructions": [
+          "Muele los tomates asados y los chiles serranos en un molcajete (mortero de piedra) y sazona con sal.",
+          "Vierte la salsa en una cazuela de barro, luego agrega la cebolla picada junto con el orégano molido y el aguacate en cubos.",
+          "Finalmente, mezcla bien todos los ingredientes."
+        ],
+        "spice_level": "Medio",
+        "flavor_notes": ["Ahumado", "Cremoso", "Herbáceo"],
+        "pairs_well_with": ["Totopos", "Tacos", "Carnes a la parrilla"]
+      },
+      {
+        "name": "Guacamole Taquero",
+        "ingredients": [
+          "5 tomatillos",
+          "1/2 diente de ajo, pelado",
+          "Pulpa de 1 aguacate maduro",
+          "1/4 taza de cilantro fresco picado",
+          "2 cucharaditas de mejorana fresca picada",
+          "3 chiles serranos, picados",
+          "1/4 taza de cebolla finamente picada (opcional)",
+          "1 cucharada de aceite de oliva",
+          "Agua, según sea necesario",
+          "Sal al gusto"
+        ],
+        "instructions": [
+          "Licúa los tomatillos y el ajo hasta obtener un puré suave.",
+          "Agrega el aguacate, el cilantro y la mejorana; continúa licuando hasta que esté cremoso.",
+          "Luego, agrega los chiles serranos picados, la cebolla (si la usas) y el aceite de oliva. Diluye la mezcla con un poco de agua hasta alcanzar la consistencia deseada.",
+          "Finalmente, sazona con sal al gusto."
+        ],
+        "spice_level": "Medio-Picante",
+        "flavor_notes": ["Cremoso", "Ácido", "Herbáceo", "Picante"],
+        "pairs_well_with": [
+          "Tacos (especialmente de carne asada o al pastor)",
+          "Carnes a la parrilla",
+          "Quesadillas",
+          "Totopos"
+        ]
+      },
+      {
+        "name": "Salsa Anita de Chile Jalapeño",
+        "ingredients": [
+          "6 chiles jalapeños, hervidos",
+          "4 dientes de ajo, pelados",
+          "1 cebolla pequeña, picada",
+          "Jugo de 3 limones",
+          "100 gramos de queso cotija rallado",
+          "100 gramos de queso fresco rallado"
+        ],
+        "instructions": [
+          "Muele los chiles jalapeños hervidos en un molcajete con el ajo y la cebolla.",
+          "Agrega el jugo de limón junto con los quesos rallados y mezcla bien."
+        ],
+        "spice_level": "Suave-Medio",
+        "flavor_notes": ["Ácido", "Quesoso", "Ligeramente picante"],
+        "pairs_well_with": [
+          "Tacos",
+          "Quesadillas",
+          "Nachos"
+        ]
+      },
+      {
+        "name": "Salsa Caliente de Chile Jalapeño",
+        "ingredients": [
+          "6 chiles jalapeños rojos, sin semillas",
+          "Sal al gusto",
+          "3 dientes de ajo, pelados",
+          "Aceite de maíz, según sea necesario",
+          "4 tomates medianos, picados",
+          "1 cebolla pequeña, picada",
+          "1 taza de caldo de pollo"
+        ],
+        "instructions": [
+          "Remoja los chiles jalapeños en agua con sal durante dos a tres horas.",
+          "En una sartén caliente con aceite, dora los dientes de ajo. Retíralos y agrega los tomates y la cebolla picados. Cocina la mezcla hasta que se seque.",
+          "Luego, agrega los chiles jalapeños (previamente cortados en tiras) y un poco de caldo de pollo para evitar que la salsa se espese demasiado.",
+          "Sazona con sal al gusto."
+        ],
+        "spice_level": "Picante",
+        "flavor_notes": ["Picante", "Sabroso", "Rico"],
+        "pairs_well_with": [
+          "Carnes a la parrilla",
+          "Huevos",
+          "Tacos",
+          "Platos de arroz"
+        ]
+      },
+      {
+        "name": "Salsa Cremosa de Jalapeño",
+        "ingredients": [
+          "Chiles jalapeños",
+          "1 diente de ajo mediano",
+          "Agua",
+          "Aceite vegetal",
+          "Sal al gusto"
+        ],
+        "instructions": [
+          "Corta los chiles jalapeños a lo largo y retira los tallos, venas y semillas para ajustar el nivel de picante (deja las venas para una salsa más picante).",
+          "Coloca los jalapeños y el diente de ajo pelado en una cacerola y cubre con 1½ tazas de agua.",
+          "Calienta a fuego medio-alto y lleva a ebullición. Reduce el fuego a bajo y cubre parcialmente la cacerola con una tapa, permitiendo que escape el vapor. Cocina durante unos 12-15 minutos hasta que los chiles estén cocidos. Agrega más agua si es necesario para mantener los chiles sumergidos mientras cocinas.",
+          "Una vez que los chiles y el ajo estén cocidos y enfriados, transfiérelos a una licuadora junto con aproximadamente ⅓ taza del agua de cocción y un poco de aceite vegetal.",
+          "Licúa hasta obtener una salsa muy suave y cremosa. Si lo deseas, agrega lentamente el aceite a través del agujero pequeño en la tapa de la licuadora mientras procesas la salsa.",
+          "Sazona con sal al gusto y disfruta de tu crema de salsa de jalapeño."
+        ],
+        "spice_level": "Medio-Picante",
+        "flavor_notes": ["Cremoso", "Picante", "Suave"],
+        "pairs_well_with": [
+          "Tacos",
+          "Carnes a la parrilla",
+          "Huevos fritos"
+        ]
+      },
+      {
+        "name": "Salsa de Chile Jalapeño a la Parrilla con Cebolla",
+        "ingredients": [
+          "10 chiles jalapeños asados a la parrilla, desemillados y picados",
+          "1 cebolla mediana finamente rebanada y asada a la parrilla",
+          "1/2 diente de ajo pelado finamente picado",
+          "1 cucharada de aceite de oliva",
+          "1/2 cucharadita de mejorana fresca finamente picada",
+          "1/2 taza de agua",
+          "Sal al gusto"
+        ],
+        "instructions": [
+          "En un tazón, mezcla los chiles jalapeños asados, la cebolla asada, el ajo picado, el aceite de oliva, la mejorana y el agua.",
+          "Sazona con sal al gusto."
+        ],
+        "spice_level": "Medio-Picante",
+        "flavor_notes": ["Ahumado", "Picante", "Herbáceo"],
+        "pairs_well_with": [
+          "Tacos",
+          "Carnes a la parrilla",
+          "Quesadillas"
+        ]
+      },
+      {
+        "name": "Salsa de Chile Jalapeño con Guayaba y Menta",
+        "ingredients": [
+          "2 cucharadas de aceite de oliva",
+          "1/2 kilo de chiles jalapeños, desemillados, desvenados y picados",
+          "1/4 de taza de vinagre de vino blanco",
+          "1/4 de taza de agua",
+          "150g de guayabas maduras, desemilladas y picadas",
+          "15 hojas de menta cortadas en juliana",
+          "Sal al gusto"
+        ],
+        "instructions": [
+          "Calienta el aceite de oliva a fuego alto en una cacerola; agrega los chiles jalapeños y reduce el fuego a medio.",
+          "Vierte el vinagre de vino blanco junto con el agua.",
+          "Agrega las guayabas y cocina la mezcla a fuego lento durante veinte minutos.",
+          "Retira la salsa del fuego y agrega la menta, mezclando bien.",
+          "Sazona con sal al gusto."
+        ],
+        "spice_level": "Medio-Picante",
+        "flavor_notes": ["Picante", "Frutal", "Fresco", "Aromático"],
+        "pairs_well_with": [
+          "Carnes a la parrilla",
+          "Tacos",
+          "Quesadillas"
+        ]
+      },
+      {
+        "name": "Salsa de Chile Jalapeño Rojo",
+        "ingredients": [
+          "1 taza de chiles jalapeños rojos, desvenados y desemillados",
+          "1/2 taza de agua hirviendo",
+          "1 diente de ajo picado",
+          "1 cebolla chica picada",
+          "1 cucharadita de orégano",
+          "1 cucharadita de mantequilla",
+          "Sal al gusto"
+        ],
+        "instructions": [
+          "Coloca los jalapeños rojos en un tazón y cúbrelos con el agua hirviendo. Déjalos reposar durante diez minutos, luego reserva la mitad del agua.",
+          "Licúa los jalapeños remojados, el ajo, la cebolla y el orégano con el agua restante hasta obtener una mezcla suave y cremosa.",
+          "Vierte la mezcla en una cacerola junto con el agua reservada y agrega la mantequilla.",
+          "Lleva la mezcla a fuego lento y cocina hasta que espese, revolviendo ocasionalmente para evitar que se queme.",
+          "Sazona con sal al gusto."
+        ],
+        "spice_level": "Medio-Picante",
+        "flavor_notes": ["Picante", "Mantecoso", "Aromático", "Ligeramente dulce"],
+        "pairs_well_with": [
+          "Tacos",
+          "Carnes a la parrilla",
+          "Enchiladas"
+        ]
+      },
+      {
+        "name": "Salsa de Chile Manzano con Ajo y Ajonjolí",
+        "ingredients": [
+          "10 chiles manzanos fritos en aceite de oliva",
+          "8 dientes de ajo pelados y fritos en aceite de oliva",
+          "250g de ajonjolí tostado",
+          "El jugo de tres naranjas",
+          "Sal, al gusto"
+        ],
+        "instructions": [
+          "En un molcajete (o mortero), muele los chiles fritos, el ajo frito, el ajonjolí tostado y el jugo de naranja hasta que estén bien combinados.",
+          "Sazona la salsa con sal, al gusto."
+        ],
+        "spice_level": "Picante",
+        "flavor_notes": ["Picante", "Ahumado", "Cítrico", "Tostado"],
+        "pairs_well_with": [
+          "Pechugas de pollo a la parrilla",
+          "Platillos de carne de res"
+        ],
+        "additional_notes": "Esta Salsa de Chile Manzano con Ajo y Ajonjolí es un condimento sabroso y picante que combina maravillosamente con pollo a la parrilla o platillos de carne de res. La combinación de chiles manzanos ardientes, ajo aromático, ajonjolí tostado y el jugo cítrico de naranja crea una salsa vibrante y deliciosa. Ajusta el sazonado según tu preferencia y disfruta de los sabores intensos de esta salsa versátil."
+      }
+
+      
+    ]
+  }
