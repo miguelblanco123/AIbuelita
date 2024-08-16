@@ -71,7 +71,7 @@ def process_query(query, conocimiento, vectorizer, X):
 4. Always maintain a warm, grandmotherly tone in your responses.
 5. Conclude your response by mentioning why {salsa_recomendada['name']} is a good choice.
 6. If the user specifically asks for all salsa names or a complete list of salsas, provide the full list of salsa names using {salsa_names_str} without any additional commentary.
-
+7. NEVER give the recipe in the principal response, the recipe will be shown in an expander if the user wants to see it.
 Respond in a concise yet informative manner, always in Spanish, always including information about {salsa_recomendada['name']}, unless specifically asked for the full list of salsas."""
 
     user_prompt = f"User query: {query}\n\nPlease respond to this query about salsas and provide information about {salsa_recomendada['name']}, or the full list if requested."
