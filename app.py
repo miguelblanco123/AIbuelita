@@ -77,7 +77,7 @@ bot_avatar = Image.open("images/AIbuelita.png")
 
 chat = ChatOpenAI(
     model_name="gpt-4o-mini",
-    openai_api_key = st.secrets.get("OPENAI_API_KEY"),
+    openai_api_key = os.getenv("OPENAI_API_KEY"),
 )
 
 @st.cache_resource
@@ -89,7 +89,6 @@ def load_knowledge():
     X = vectorizer.fit_transform(salsa_texts)
     return conocimiento, vectorizer, X
 
-# New function to get all salsa names
 def get_all_salsa_names(conocimiento):
     return [salsa['name'] for salsa in conocimiento['salsa_recipes']]
 
@@ -97,20 +96,21 @@ def process_query(query, conocimiento, vectorizer, X):
     all_salsa_names = get_all_salsa_names(conocimiento)
     salsa_names_str = ", ".join(all_salsa_names)
 
-    system_prompt = f"""You are AIbuelita, an AI assistant specialized in Mexican salsas. Your task is to respond to the user's query about salsas and always recommend a salsa, even for general questions. Follow these guidelines:
+    # Find the most similar salsa
+    salsa_recomendada = encontrar_salsa_similar(query, conocimiento, vectorizer, X)
 
-1. For specific dish queries, recommend a suitable salsa and explain why it's a good match. NEVER change the ingredients section, always give them exactly as provided in the dataset.
-2. For general questions, provide relevant information and still recommend a salsa that relates to the query.
-3. If asked to list salsas, use ONLY the following list of salsas: {salsa_names_str}. Do not invent or add any salsas not in this list.
-4. For unusual requests (like the "weirdest" salsa), use your knowledge creatively to recommend an interesting salsa from the provided list.
-5. Always maintain a warm, grandmotherly tone in your responses.
-6. Conclude your response by mentioning why the recommended salsa is a good choice.
-7. If the user specifically asks for all salsa names or a complete list of salsas, provide the full list of salsa names without any additional commentary.
-8. If the asked salsa is practically the same name as one of the salsas in the list, recommend the one in the list. Do not say that the salsa is not in the list.
+    system_prompt = f"""You are AIbuelita, an AI assistant specialized in Mexican salsas. Your task is to respond to the user's query about salsas and always recommend the following salsa: {salsa_recomendada['name']}. Follow these guidelines:
 
-Respond in a concise yet informative manner, always including a salsa recommendation from the provided list, unless specifically asked for the full list of salsas."""
+1. For all queries, recommend {salsa_recomendada['name']} and explain why it's a good match.
+2. Use the exact ingredients and instructions provided for {salsa_recomendada['name']}.
+3. For general questions, provide relevant information and still relate it to {salsa_recomendada['name']}.
+4. Always maintain a warm, grandmotherly tone in your responses.
+5. Conclude your response by mentioning why {salsa_recomendada['name']} is a good choice.
+6. If the user specifically asks for all salsa names or a complete list of salsas, provide the full list of salsa names without any additional commentary.
 
-    user_prompt = f"User query: {query}\n\nPlease respond to this query about salsas and provide a salsa recommendation from the list provided, or the full list if requested."
+Respond in a concise yet informative manner, always in Spanish, always including information about {salsa_recomendada['name']}, unless specifically asked for the full list of salsas."""
+
+    user_prompt = f"User query: {query}\n\nPlease respond to this query about salsas and provide information about {salsa_recomendada['name']}, or the full list if requested."
 
     messages = [
         SystemMessage(content=system_prompt),
@@ -118,7 +118,7 @@ Respond in a concise yet informative manner, always including a salsa recommenda
     ]
 
     response = chat(messages)
-    return response.content
+    return response.content, salsa_recomendada
 
 def encontrar_salsa_similar(query, conocimiento, vectorizer, X):
     query_vector = vectorizer.transform([query])
@@ -170,8 +170,7 @@ def main():
     if st.button("¡Cuéntame, Abuelita!"):
         if query:
             with st.spinner('Ay mi niño, déjame pensar en la mejor salsita para ti...'):
-                respuesta = process_query(query, conocimiento, vectorizer, X)
-                salsa_recomendada = encontrar_salsa_similar(query, conocimiento, vectorizer, X)
+                respuesta, salsa_recomendada = process_query(query, conocimiento, vectorizer, X)
             
             st.success("¡Listo! Aquí tienes mi respuesta, corazón:")
             st.markdown(f"{respuesta}")

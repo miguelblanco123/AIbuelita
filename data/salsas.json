@@ -423,7 +423,359 @@
           "Tamales recalentados"
         ],
         "additional_notes": "Esta salsa también se puede cocinar calentando un poco de aceite en una sartén y cocinando la mezcla durante cinco minutos. La Salsa Mexicana Cruda, también conocida como 'pico de gallo', es un acompañamiento fresco y versátil en la cocina mexicana."
+      },
+      {
+        "name": "Salsa Oaxaca",
+        "ingredients": [
+          "4 chiles serranos picados",
+          "1 cebolla chica finamente picada",
+          "1/2 rama de apio finamente picada",
+          "El jugo de dos limones",
+          "1 cucharada de mezcal blanco",
+          "Sal al gusto"
+        ],
+        "instructions": [
+          "Mezcla los chiles serranos picados, la cebolla y el apio.",
+          "Agrega el jugo de limón y el mezcal.",
+          "Sazona con sal al gusto."
+        ],
+        "spice_level": "Medio-Picante",
+        "flavor_notes": ["Picante", "Cítrico", "Fresco", "Ahumado"],
+        "pairs_well_with": [
+          "Tacos",
+          "Carnes a la parrilla",
+          "Platillos de mariscos"
+        ],
+        "additional_notes": "Se recomienda preparar esta salsa tres horas antes de consumirla. Variación: Reemplaza el mezcal con una cucharada de tequila blanco y agrega dos cucharadas de jugo Maggi. Esta salsa única combina el picor de los chiles serranos con el sabor distintivo del mezcal, creando un acompañamiento perfecto para una variedad de platillos mexicanos."
+      },
+      {
+        "name": "Salsa Ranchera de Chile Poblano",
+        "ingredients": [
+          "4 chiles poblanos chicos asados, pelados, desemillados y desvenados",
+          "2 jitomates grandes maduros, asados y picados con todo y piel",
+          "1 cebolla mediana finamente rebanada y asada",
+          "3 dientes de ajo asados, pelados y picados",
+          "2 chiles jalapeños asados",
+          "1/4 de cucharadita de comino asado y molido",
+          "1/4 de cucharadita de orégano seco",
+          "1/4 de taza de consomé de pollo o agua",
+          "1 cucharadita de aceite de oliva",
+          "Sal al gusto"
+        ],
+        "instructions": [
+          "Muele los chiles poblanos asados a fondo.",
+          "Agrega los jitomates, la cebolla, el ajo, el comino, el orégano, el consomé de pollo (o agua) y el aceite de oliva al molino. Continúa moliendo hasta obtener una consistencia suave.",
+          "Sazona con sal al gusto."
+        ],
+        "spice_level": "Medio",
+        "flavor_notes": ["Ahumado", "Terroso", "Aromático", "Ligeramente picante"],
+        "pairs_well_with": [
+          "Carnes a la parrilla",
+          "Tacos",
+          "Enchiladas",
+          "Platillos de arroz"
+        ],
+        "additional_notes": "Esta Salsa Ranchera de Chile Poblano combina el sabor ahumado de los chiles poblanos con la riqueza de los jitomates asados y las especias, creando un acompañamiento versátil para una variedad de platillos mexicanos. El nivel de picor puede variar dependiendo de los chiles poblanos y jalapeños utilizados."
+      },
+      {
+        "name": "Salsa Ranchera",
+        "ingredients": [
+          "8 chiles de árbol secos, sin semillas",
+          "4 jitomates rojos",
+          "6 tomates verdes",
+          "1 cebolla pequeña",
+          "1 cucharada de Knorr® Suiza caldo de pollo"
+        ],
+        "instructions": [
+          "En un comal, tuesta los chiles de árbol secos hasta que estén ligeramente dorados sin quemarse. Reserva.",
+          "En el mismo comal, asa los jitomates rojos, los tomates verdes y la cebolla durante unos 15 minutos o hasta que estén bien chamuscados y ligeramente suaves.",
+          "En un molcajete (o mortero), muele los chiles tostados y los tomates asados junto con la cebolla hasta lograr una salsa sin trozos grandes.",
+          "Sazona la salsa con Knorr® Suiza Caldo de Pollo y sirve."
+        ],
+        "spice_level": "Medio-Picante",
+        "flavor_notes": ["Picante", "Ahumado", "Ácido", "Sabroso"],
+        "pairs_well_with": [
+          "Tacos de carnitas de cerdo",
+          "Carnes a la parrilla",
+          "Quesadillas"
+        ],
+        "additional_notes": "Esta Salsa Ranchera tradicional combina el picor de los chiles de árbol con el sabor ahumado de los tomates asados, creando un acompañamiento versátil y sabroso para una variedad de platillos mexicanos. El uso de Knorr® Suiza Caldo de Pollo añade un toque extra de sabor a la salsa."
+      },
+      {
+        "name": "Salsa Roja Mexicana",
+        "ingredients": [
+          "4 jitomates",
+          "2 chiles serranos picados",
+          "1/2 cebolla picada",
+          "1 diente de ajo picado",
+          "Aceite",
+          "Sal",
+          "Pimienta",
+          "Cilantro fresco picado"
+        ],
+        "instructions": [
+          "En un sartén, poner los jitomates y agregar los chiles. Cocinar hasta que estén cocidos.",
+          "Moler los jitomates junto con los chiles. Agregar el ajo y la cebolla picada, y revolver bien.",
+          "Añadir un poco de cilantro y mezclar con la salsa.",
+          "Salpimentar al gusto y agregar un chorrito de aceite de oliva."
+        ],
+        "spice_level": "Medio",
+        "flavor_notes": ["Picante", "Fresco", "Aromático", "Ligeramente ácido"],
+        "pairs_well_with": [
+          "Totopos",
+          "Tacos",
+          "Carnes a la parrilla",
+          "Quesadillas"
+        ],
+        "additional_notes": "Esta Salsa Roja Mexicana es una versión clásica y versátil que combina el sabor de los jitomates cocidos con el picor de los chiles serranos. El cilantro fresco añade un toque aromático, mientras que el aceite de oliva aporta suavidad a la textura. Es un acompañamiento perfecto para una amplia variedad de platillos mexicanos."
+      },
+      {
+        "name": "Salsa Serrana (Pico de Gallo)",
+        "ingredients": [
+          "4 chiles serranos finamente picados",
+          "2 jitomates grandes picados",
+          "1 cebolla grande picada",
+          "1 manojo de cilantro finamente picado",
+          "El jugo de dos limones",
+          "Sal al gusto"
+        ],
+        "instructions": [
+          "Mezcla los chiles serranos, jitomates, cebolla, cilantro y jugo de limón en un tazón.",
+          "Revuelve bien y sazona con sal."
+        ],
+        "spice_level": "Medio-Picante",
+        "flavor_notes": ["Picante", "Fresco", "Cítrico", "Herbáceo"],
+        "pairs_well_with": [
+          "Tacos",
+          "Carnes a la parrilla",
+          "Nachos",
+          "Quesadillas"
+        ],
+        "additional_notes": "Puedes agregar dos cucharadas de aceite de oliva extra virgen para darle un sabor adicional. Esta Salsa Serrana, también conocida como Pico de Gallo, es una salsa fresca y versátil que aporta un toque picante y vibrante a una variedad de platillos mexicanos. Su textura crujiente y sabores intensos la hacen perfecta como acompañamiento o topping."
+      },
+      {
+        "name": "Salsa Serrana de Molcajete",
+        "ingredients": [
+          "2 jitomates maduros asados ocho minutos",
+          "5 chiles serranos frescos, asados ocho minutos",
+          "1 diente de ajo asado y pelado",
+          "Sal, al gusto"
+        ],
+        "instructions": [
+          "Retira las partes quemadas de los jitomates asados.",
+          "Muele los chiles serranos asados y el ajo a fondo en un molcajete (mortero de piedra).",
+          "Agrega los jitomates asados y continúa moliendo hasta obtener una consistencia suave.",
+          "Finalmente, sazona con sal al gusto."
+        ],
+        "spice_level": "Picante",
+        "flavor_notes": ["Ahumado", "Picante", "Terroso", "Intenso"],
+        "pairs_well_with": [
+          "Tacos",
+          "Carnes a la parrilla",
+          "Quesadillas",
+          "Pollo a la parrilla"
+        ],
+        "additional_notes": "Esta Salsa Serrana de Molcajete es una versión tradicional que utiliza ingredientes asados y el método de molienda en molcajete para crear una salsa con sabores profundos y ahumados. El uso del molcajete no solo aporta autenticidad, sino que también ayuda a extraer los aceites esenciales de los ingredientes, resultando en una salsa con textura y sabor únicos."
+      },
+      {
+        "name": "Salsa Verde Cocida",
+        "ingredients": [
+          "10 tomates verdes",
+          "1/4 de cebolla blanca",
+          "1 diente de ajo",
+          "4 chiles serranos",
+          "3 1/4 tazas de agua",
+          "1 cucharada de Knorr® Suiza caldo de pollo"
+        ],
+        "instructions": [
+          "En una cacerola, coloca los tomates verdes, la cebolla, el ajo, los chiles y el agua. Lleva a ebullición y cocina durante 15 minutos o hasta que los tomates estén suaves y cambien de color.",
+          "Retira los ingredientes de la cacerola (excluyendo el agua) y transfiérelos a una licuadora.",
+          "Agrega el Knorr® Suiza Caldo de Pollo y licúa durante 3 minutos o hasta que la mezcla esté suave y sin trozos grandes.",
+          "Sirve la salsa."
+        ],
+        "spice_level": "Medio-Picante",
+        "flavor_notes": ["Ácido", "Picante", "Sabroso", "Fresco"],
+        "pairs_well_with": [
+          "Tacos de pollo",
+          "Enchiladas verdes",
+          "Pescado a la parrilla",
+          "Huevos rancheros"
+        ],
+        "additional_notes": "Esta Salsa Verde Cocida es una versión clásica de la cocina mexicana. El proceso de cocción suaviza los sabores de los tomates verdes y chiles, mientras que el Knorr® Suiza Caldo de Pollo añade profundidad al sabor. Es una salsa versátil que complementa perfectamente una variedad de platillos tradicionales."
+      },
+      {
+        "name": "Salsa Verde Cruda Mexicana",
+        "ingredients": [
+          "7 tomates verdes, cortados en cuartos",
+          "1/4 de cebolla",
+          "1 diente de ajo, pelado y sin el germen",
+          "3 chiles serranos",
+          "3 ramitas de cilantro fresco, lavado y desinfectado",
+          "3 granos de pimienta negra",
+          "Pizca de sal gruesa"
+        ],
+        "instructions": [
+          "En una licuadora, agrega los tomates verdes, la cebolla, los chiles serranos, el ajo, el cilantro, la sal y los granos de pimienta.",
+          "Licúa hasta obtener una consistencia suave. Si la salsa está muy espesa, agrega un poco de agua para ajustar la consistencia.",
+          "Prueba y ajusta el sazón antes de servir."
+        ],
+        "spice_level": "Medio-Picante",
+        "flavor_notes": ["Fresco", "Ácido", "Picante", "Herbáceo"],
+        "pairs_well_with": [
+          "Tacos (especialmente de carne asada o carnitas)",
+          "Pollo a la parrilla",
+          "Nachos",
+          "Quesadillas"
+        ],
+        "additional_notes": "Esta Salsa Verde Cruda Mexicana es una versión fresca y vibrante que destaca los sabores naturales de los ingredientes crudos. El toque de cilantro y pimienta negra añade complejidad al sabor, mientras que los chiles serranos aportan un picor equilibrado. Es perfecta para aquellos que prefieren salsas con un sabor más brillante y directo."
+      },
+      {
+        "name": "Salsa Verde Cruda",
+        "ingredients": [
+          "6 tomates verdes maduros",
+          "1/2 cebolla chica",
+          "6 chiles serranos",
+          "2 ramitas de hierbabuena",
+          "1/3 taza de agua",
+          "Sal al gusto",
+          "10 ramas de cilantro finamente picadas"
+        ],
+        "instructions": [
+          "Licúa los tomates verdes, la cebolla, los chiles serranos y la hierbabuena con el agua y sal al gusto.",
+          "Vierte la salsa en un recipiente y mezcla con el cilantro finamente picado."
+        ],
+        "spice_level": "Medio-Picante",
+        "flavor_notes": ["Fresco", "Picante", "Herbáceo", "Ácido"],
+        "pairs_well_with": [
+          "Tacos",
+          "Carnes a la parrilla",
+          "Enchiladas",
+          "Quesadillas",
+          "Totopos"
+        ],
+        "additional_notes": "Esta Salsa Verde Cruda combina el sabor ácido de los tomates verdes con el picor de los chiles serranos y las notas frescas de la hierbabuena y el cilantro. La textura es ligera y el sabor vibrante, lo que la hace ideal para una amplia variedad de platillos mexicanos. La adición de cilantro picado al final aporta un toque de frescura adicional."
+      },
+      {
+        "name": "Salsa Zapatista",
+        "ingredients": [
+          "10 chiles jalapeños",
+          "3 dientes de ajo pelados",
+          "1 cebolla chica",
+          "Sal al gusto",
+          "El jugo de tres limones"
+        ],
+        "instructions": [
+          "Muele los chiles jalapeños, el ajo y la cebolla junto con sal al gusto.",
+          "Finalmente, agrega el jugo de limón y mezcla bien."
+        ],
+        "spice_level": "Medio-Picante",
+        "flavor_notes": ["Picante", "Ácido", "Aromático", "Fresco"],
+        "pairs_well_with": [
+          "Tacos",
+          "Carnes a la parrilla",
+          "Quesadillas"
+        ],
+        "additional_notes": "La Salsa Zapatista es conocida por su sabor intenso y picante, con un toque ácido del jugo de limón que equilibra el calor de los jalapeños. Su nombre hace referencia al movimiento zapatista de Chiapas, México. Esta salsa es simple pero llena de sabor, perfecta para aquellos que disfrutan de un buen picor en sus platillos."
+      },
+      {
+        "name": "Salsa de Chile Manzano",
+        "ingredients": [
+          "3 chiles manzanos asados",
+          "2 jitomates maduros chicos, asados",
+          "3 dientes de ajo pelados",
+          "1/4 de cebolla chica",
+          "Sal al gusto",
+          "1 cucharada de aceite de oliva"
+        ],
+        "instructions": [
+          "En un molcajete (o usando una licuadora), muele juntos los chiles asados, los jitomates asados, los dientes de ajo y la cebolla hasta que estén bien combinados.",
+          "Sazona la mezcla con sal al gusto.",
+          "Calienta el aceite de oliva en una sartén a fuego medio, luego fríe la mezcla de la salsa durante unos cinco minutos."
+        ],
+        "spice_level": "Medio-Picante",
+        "flavor_notes": ["Picante", "Ahumado", "Aromático", "Ligeramente ácido"],
+        "pairs_well_with": [
+          "Puchero",
+          "Caldos blancos"
+        ],
+        "additional_notes": "Esta Salsa de Chile Manzano es perfecta para agregar un toque picante a pucheros o caldos blancos. Los chiles y jitomates asados proporcionan un sabor rico y ahumado, mientras que el ajo y la cebolla añaden profundidad. Ajusta la sal y el picor según tu preferencia. ¡Disfruta esta salsa con tus sopas o guisos favoritos para obtener una explosión de sabor!"
+      },
+      {
+        "name": "Salsa de Mango y Chile Manzano",
+        "ingredients": [
+          "3 chiles manzanos (verde, amarillo y rojo) desemillados y finamente picados",
+          "1/2 mango manila maduro finamente picado (preferiblemente verde)",
+          "1/2 cebolla mediana finamente picada",
+          "El jugo de un limón",
+          "3 cucharadas de aceite de oliva",
+          "Sal al gusto"
+        ],
+        "instructions": [
+          "En un tazón, mezcle el chile con el mango y la cebolla.",
+          "Agregue el jugo de limón y el aceite de oliva a la mezcla.",
+          "Por último, sazone con sal al gusto."
+        ],
+        "spice_level": "Medio-Picante",
+        "flavor_notes": ["Picante", "Dulce", "Cítrico", "Tropical"],
+        "pairs_well_with": [
+          "Carnes a la parrilla",
+          "Tacos de pescado",
+          "Como aderezo para ensaladas"
+        ],
+        "additional_notes": "La combinación de chile manzano con mango le da a esta salsa un perfil de sabor dulce y picante. Ajuste los ingredientes y el sazón según sus preferencias de gusto. Variaciones: Puede usar vinagre de vino blanco en lugar de jugo de limón. Esta salsa también se puede preparar con guayaba en lugar de mango, pelada, desemillada y finamente picada. Disfrute esta salsa con varios platos para darles un toque tropical."
+      },
+      {
+        "name": "Salsa de Chile Manzano con Manzana y Cebollín",
+        "ingredients": [
+          "3 chiles manzanos (verde, amarillo y rojo) desemillados y finamente picados",
+          "El puré de dos manzanas cocidas",
+          "1 diente de ajo asado, pelado y picado finamente",
+          "El jugo de un limón",
+          "2 cucharaditas de aceite de oliva",
+          "Sal al gusto",
+          "2 cucharadas de cebollín finamente picado"
+        ],
+        "instructions": [
+          "En un tazón, revuelva el chile, el puré, el ajo, el jugo de limón y el aceite de oliva.",
+          "Sazone con sal al gusto.",
+          "Por último, espolvoree con el cebollín."
+        ],
+        "spice_level": "Medio-Picante",
+        "flavor_notes": ["Picante", "Dulce", "Ahumado", "Fresco"],
+        "pairs_well_with": [
+          "Pollo a la parrilla",
+          "Tacos de pescado",
+          "Como dip refrescante para totopos"
+        ],
+        "additional_notes": "Puede utilizar el puré de una manzana y cortar la otra en cubitos para que la salsa adquiera más textura. Esta salsa combina el picor del chile manzano con la dulzura de la manzana y el toque fresco del cebollín, creando un perfil de sabor único y versátil."
+      },
+      {
+        "name": "Salsa de Chile Habanero con Piña y Albahaca",
+        "ingredients": [
+          "3 cucharadas de cebolla picada y desflemada",
+          "4 tazas de jitomate picado en cubos chicos",
+          "1 chile habanero desemillado y finamente picado",
+          "5 cucharadas de albahaca picada",
+          "1 pimiento rojo chico, finamente picado",
+          "El jugo de dos limones, o el equivalente en jugo de naranja",
+          "1/2 taza de piña madura",
+          "Sal al gusto"
+        ],
+        "instructions": [
+          "Licúe la cebolla, el jitomate, el chile, la albahaca, el pimiento, el jugo y la piña hasta obtener una mezcla suave.",
+          "Vierta la mezcla en un recipiente y sazone con sal.",
+          "Deje reposar por lo menos durante 30 minutos en el refrigerador antes de servir."
+        ],
+        "spice_level": "Picante",
+        "flavor_notes": ["Picante", "Dulce", "Cítrico", "Herbáceo"],
+        "pairs_well_with": [
+          "Mariscos a la parrilla",
+          "Tacos",
+          "Como aderezo para pollo a la parrilla"
+        ],
+        "additional_notes": "Esta salsa debe servirse fría. Variantes: puede preparar esta salsa con mango o cualquier otra fruta tropical en lugar de la piña, así como utilizar hierbabuena en vez de la albahaca. La combinación de habanero, piña y albahaca crea un perfil de sabor único que mezcla lo picante, lo dulce y lo herbáceo."
       }
+      
 
 
 
