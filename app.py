@@ -9,7 +9,9 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 from PIL import Image
 import random
+from dotenv import load_dotenv
 
+load_dotenv()
 
 # Configure Streamlit page
 st.set_page_config(page_title="AIbuelita: Salsa Recipes", page_icon="🌶️", layout="wide")
