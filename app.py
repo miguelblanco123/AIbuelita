@@ -13,10 +13,8 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-# Configure Streamlit page
 st.set_page_config(page_title="AIbuelita: Salsa Recipes", page_icon="🌶️", layout="wide")
 
-# Define Mexican villa-inspired color palette
 COLORS = {
     "terra_cotta": "#E07A5F",
     "marigold": "#F2CC8F",
@@ -74,17 +72,14 @@ st.markdown(f"""
 </style>
 """, unsafe_allow_html=True)
 
-# Load avatar images
 user_avatar = Image.open("images/User.png")
 bot_avatar = Image.open("images/AIbuelita.png")
 
-# Configure ChatOpenAI client
 chat = ChatOpenAI(
     model_name="gpt-4o-mini",
-    openai_api_key=os.environ.get("OPENAI_API_KEY")
+    openai_api_key=os.getenv("OPENAI_API_KEY"),
 )
 
-# Load knowledge and prepare vectorizer
 @st.cache_resource
 def load_knowledge():
     with open('data/salsas.json', 'r', encoding='utf-8') as f:
