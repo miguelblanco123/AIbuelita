@@ -242,7 +242,190 @@
           "Platillos de carne de res"
         ],
         "additional_notes": "Esta Salsa de Chile Manzano con Ajo y Ajonjolí es un condimento sabroso y picante que combina maravillosamente con pollo a la parrilla o platillos de carne de res. La combinación de chiles manzanos ardientes, ajo aromático, ajonjolí tostado y el jugo cítrico de naranja crea una salsa vibrante y deliciosa. Ajusta el sazonado según tu preferencia y disfruta de los sabores intensos de esta salsa versátil."
+      },
+      {
+        "name": "Salsa de Chile Poblano al Carbón",
+        "ingredients": [
+          "4 chiles poblanos asados al carbón, pelados, desemillados y desvenados",
+          "1 jitomate mediano maduro",
+          "2 tomates verdes asados",
+          "1/2 taza de cebolla asada",
+          "2 dientes de ajo asados y pelados",
+          "1/4 de cucharadita de orégano seco",
+          "1 taza de agua",
+          "Sal al gusto"
+        ],
+        "instructions": [
+          "En un molcajete, muele los chiles poblanos asados, el jitomate maduro, los tomates verdes asados, la cebolla asada, el ajo, el orégano y el agua hasta que estén bien combinados.",
+          "Sazona con sal al gusto."
+        ],
+        "spice_level": "Suave",
+        "flavor_notes": ["Ahumado", "Terroso", "Ligeramente picante", "Herbáceo"],
+        "pairs_well_with": [
+          "Tacos",
+          "Carnes a la parrilla",
+          "Enchiladas",
+          "Quesadillas"
+        ]
+      },
+      {
+        "name": "Salsa de Chile Poblano con Queso de Cabra",
+        "ingredients": [
+          "50g de mantequilla",
+          "2 dientes de ajo pelados y picados",
+          "1/2 cebolla grande rebanada",
+          "5 chiles poblanos desemillados, desvenados y picados",
+          "5 ramitas de cilantro",
+          "1/2 litro de consomé de pollo",
+          "1/4 de litro de crema espesa",
+          "500g de queso de cabra natural cortado en trozos",
+          "Sal y pimienta, al gusto"
+        ],
+        "instructions": [
+          "Derrite la mantequilla a fuego lento en una cacerola. Agrega el ajo picado, la cebolla rebanada y los chiles poblanos picados. Cocina hasta que estén suaves.",
+          "Añade el cilantro y el consomé de pollo. Lleva a ebullición y cocina a fuego lento durante 15 minutos.",
+          "Incorpora la crema espesa. Retira la mezcla del fuego y licúa hasta que quede suave.",
+          "Regresa la salsa a fuego lento y agrega el queso de cabra. Bate hasta que el queso se derrita y se incorpore bien.",
+          "Sazona con sal y pimienta al gusto."
+        ],
+        "spice_level": "Suave",
+        "flavor_notes": ["Cremoso", "Ahumado", "Tangy", "Herbáceo"],
+        "pairs_well_with": [
+          "Pechugas de pollo a la parrilla",
+          "Platillos de pescado",
+          "Crepas saladas"
+        ],
+        "additional_notes": "Esta Salsa de Chile Poblano con Queso de Cabra es una salsa rica y cremosa que presenta el sabor ahumado de los chiles poblanos y el toque ácido del queso de cabra. Es un acompañamiento delicioso para pollo a la parrilla, pescado o crepas saladas. Si se usa con pescado, sustituye el consomé de pollo por caldo de pescado. Ajusta el sazonado a tu gusto y disfruta esta salsa decadente con tus platillos favoritos."
+      },
+      {
+        "name": "Salsa de Chile Serrano con Hoja de Aguacate",
+        "ingredients": [
+          "1 hoja de aguacate ligeramente asada",
+          "3 chiles serranos desemillados",
+          "1 diente de ajo chico, pelado",
+          "10 tomates verdes",
+          "Aceite de maíz, el necesario",
+          "1/4 de taza de cebolla, finamente picada",
+          "Sal al gusto"
+        ],
+        "instructions": [
+          "Licúa la hoja de aguacate con los chiles serranos, el ajo y los tomates verdes.",
+          "Fríe la mezcla en una sartén caliente con aceite de maíz durante cinco minutos.",
+          "Retira la salsa del fuego y agrega la cebolla picada.",
+          "Finalmente, sazona con sal al gusto."
+        ],
+        "spice_level": "Picante",
+        "flavor_notes": ["Picante", "Herbáceo", "Ahumado", "Fresco"],
+        "pairs_well_with": [
+          "Tacos al pastor",
+          "Tacos de carne asada",
+          "Pollo a la parrilla",
+          "Quesadillas"
+        ],
+        "additional_notes": "Puedes usar media cucharadita de semillas de hinojo tostadas y molidas en lugar de la hoja de aguacate."
+      },
+      {
+        "name": "Salsa de Guaje",
+        "ingredients": [
+          "10 chiles serranos verdes asados",
+          "1 manojo de guajes desvainados",
+          "1/4 de cebolla, finamente picada",
+          "1/4 de taza de agua",
+          "Sal al gusto"
+        ],
+        "instructions": [
+          "Muele los chiles serranos asados y los guajes en un molcajete (mortero de piedra).",
+          "Agrega la cebolla picada junto con el agua.",
+          "Finalmente, sazona con sal al gusto."
+        ],
+        "spice_level": "Medio-Picante",
+        "flavor_notes": ["Picante", "Ahumado", "Terroso", "Único"],
+        "pairs_well_with": [
+          "Tacos",
+          "Carnes a la parrilla",
+          "Quesadillas"
+        ],
+        "additional_notes": "Disfruta del sabor único de la Salsa de Guaje con tus platillos favoritos. Los guajes aportan un sabor característico a esta salsa tradicional mexicana."
+      },
+      {
+        "name": "Salsa de Jalapeño y Jitomate a las Brasas",
+        "ingredients": [
+          "3 chiles jalapeños asados al carbón picados con todo y semillas",
+          "2 dientes de ajo asados al carbón, pelados y picados",
+          "1 cebolla chica finamente rebanada y asada al carbón",
+          "2 jitomates grandes maduros, asados al carbón y picados",
+          "1/4 de cucharadita de orégano seco",
+          "1/4 de cucharadita de comino tostado y molido",
+          "1/2 taza de agua",
+          "Sal al gusto"
+        ],
+        "instructions": [
+          "Mezcla todos los ingredientes a fondo.",
+          "Sazona con sal al gusto."
+        ],
+        "spice_level": "Medio-Picante",
+        "flavor_notes": ["Ahumado", "Picante", "Aromático", "Terroso"],
+        "pairs_well_with": [
+          "Tacos",
+          "Carnes a la parrilla",
+          "Quesadillas"
+        ],
+        "additional_notes": "Esta salsa combina el sabor ahumado de los ingredientes asados al carbón con el picor de los jalapeños y las notas aromáticas del comino y el orégano, creando un acompañamiento perfecto para una variedad de platillos mexicanos."
+      },
+
+      {
+        "name": "Salsa Jalapeña",
+        "ingredients": [
+          "6 a 8 chiles jalapeños frescos, desemillados y picados",
+          "500 ml de vinagre blanco",
+          "100g de azúcar",
+          "Sal al gusto"
+        ],
+        "instructions": [
+          "En una cacerola, combina los jalapeños picados, el vinagre, el azúcar y la sal al gusto.",
+          "Lleva a fuego lento y cocina hasta que la mezcla espese.",
+          "Retira del fuego y deja enfriar.",
+          "Licúa todos los ingredientes hasta obtener una consistencia suave y ajusta el sazonado si es necesario.",
+          "Transfiere la salsa a un frasco y déjala enfriar completamente antes de sellar.",
+          "Refrigera durante la noche antes de servir."
+        ],
+        "spice_level": "Medio-Picante",
+        "flavor_notes": ["Picante", "Agridulce", "Fresco", "Ácido"],
+        "pairs_well_with": [
+          "Tacos",
+          "Sándwiches",
+          "Carnes a la parrilla"
+        ],
+        "additional_notes": "Esta Salsa Jalapeña ofrece un equilibrio único entre el picor de los jalapeños, la acidez del vinagre y un toque de dulzura. Su consistencia suave y su sabor intenso la hacen perfecta para una variedad de platillos, desde tacos hasta sándwiches."
+      },
+      {
+        "name": "Salsa Mexicana Cruda",
+        "ingredients": [
+          "1/2 cebolla pequeña finamente picada y desflemada",
+          "3 chiles serranos finamente picados",
+          "1 jitomate grande y maduro finamente picado",
+          "4 ramas de cilantro finamente picadas",
+          "Sal al gusto"
+        ],
+        "instructions": [
+          "En un tazón, mezcla la cebolla picada, los chiles serranos, el jitomate y el cilantro.",
+          "Sazona con sal al gusto."
+        ],
+        "spice_level": "Medio-Picante",
+        "flavor_notes": ["Fresco", "Picante", "Herbáceo", "Jugoso"],
+        "pairs_well_with": [
+          "Tacos",
+          "Carnes a la parrilla",
+          "Quesadillas",
+          "Totopos",
+          "Flautas",
+          "Tostadas de pollo",
+          "Tamales recalentados"
+        ],
+        "additional_notes": "Esta salsa también se puede cocinar calentando un poco de aceite en una sartén y cocinando la mezcla durante cinco minutos. La Salsa Mexicana Cruda, también conocida como 'pico de gallo', es un acompañamiento fresco y versátil en la cocina mexicana."
       }
+
+
 
       
     ]
