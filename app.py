@@ -14,9 +14,8 @@ load_dotenv()
 
 st.set_page_config(page_title="AIbuelita: Salsa Recipes", page_icon="🌶️", layout="wide")
 
-# Define accent colors that work well in both light and dark themes
-ACCENT_COLOR = "#E07A5F"  # Terra Cotta
-ACCENT_COLOR_HOVER = "#F2CC8F"  # Marigold
+ACCENT_COLOR = "#E07A5F" 
+ACCENT_COLOR_HOVER = "#F2CC8F"
 
 st.markdown(f"""
 <style>
@@ -35,7 +34,6 @@ st.markdown(f"""
 </style>
 """, unsafe_allow_html=True)
 
-# Rest of the code remains the same
 user_avatar = Image.open("images/User.png")
 bot_avatar = Image.open("images/AIbuelita.png")
 
@@ -60,7 +58,6 @@ def process_query(query, conocimiento, vectorizer, X):
     all_salsa_names = get_all_salsa_names(conocimiento)
     salsa_names_str = ", ".join(all_salsa_names)
 
-    # Find the most similar salsa
     salsa_recomendada = encontrar_salsa_similar(query, conocimiento, vectorizer, X)
 
     system_prompt = f"""You are AIbuelita, an AI assistant specialized in Mexican salsas. Your task is to respond to the user's query about salsas and always recommend the following salsa: {salsa_recomendada['name']}. Follow these guidelines:
@@ -109,10 +106,8 @@ def guardar_feedback(query, salsa_recomendada, util):
         })
 
 def main():
-    # Load knowledge
     conocimiento, vectorizer, X = load_knowledge()
 
-    # Sidebar
     st.sidebar.image("images/AIbuelita.png", use_column_width=True)
     st.sidebar.title("AIbuelita")
     st.sidebar.markdown("""
@@ -124,7 +119,6 @@ def main():
     ¡Que aproveche!
     """)
 
-    # Main content
     st.title("🌶️ La Cocina de AIbuelita 🌮")
     st.markdown("---")
 
