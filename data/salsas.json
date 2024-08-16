@@ -774,7 +774,434 @@
           "Como aderezo para pollo a la parrilla"
         ],
         "additional_notes": "Esta salsa debe servirse fría. Variantes: puede preparar esta salsa con mango o cualquier otra fruta tropical en lugar de la piña, así como utilizar hierbabuena en vez de la albahaca. La combinación de habanero, piña y albahaca crea un perfil de sabor único que mezcla lo picante, lo dulce y lo herbáceo."
-      }
+      },
+      {
+        "name": "Salsa de Chile Habanero con Especias",
+        "ingredients": [
+          "1 taza de jugo de naranja agria",
+          "1 cucharadita de orégano",
+          "2 pizcas de clavo en polvo",
+          "6 pimientas negras",
+          "6 chiles habaneros en rodajas finas",
+          "1 cebolla morada grande en rodajas finas"
+        ],
+        "instructions": [
+          "Mezcle el jugo de naranja agria, el orégano, el clavo en polvo y las pimientas negras.",
+          "Agregue el chile habanero en rodajas finas y la cebolla.",
+          "Deje reposar la salsa durante al menos dos horas antes de servirla."
+        ],
+        "spice_level": "Muy Picante",
+        "flavor_notes": ["Picante", "Cítrico", "Especiado", "Aromático"],
+        "pairs_well_with": [
+          "Carnes a la parrilla",
+          "Tacos",
+          "Platillos de mariscos",
+          "Ideal para tacos de carnitas michoacanas"
+        ],
+        "additional_notes": "Esta salsa combina el intenso picor del habanero con el sabor cítrico de la naranja agria y las notas aromáticas de las especias. El tiempo de reposo es crucial para que los sabores se mezclen y desarrollen completamente. La combinación de orégano, clavo y pimienta negra le da un toque único que la diferencia de otras salsas de habanero."
+      },
+      {
+        "name": "Salsa de Habanero con Jitomate",
+        "ingredients": [
+          "4 chiles habaneros finamente picados",
+          "3 jitomates medianos maduros, escalfados, pelados, desemillados y finamente picados",
+          "1 cebolla morada finamente picada",
+          "1/2 taza de cilantro finamente picado",
+          "2 dientes de ajo pelados finamente picados",
+          "El jugo de dos naranjas agrias",
+          "Sal al gusto"
+        ],
+        "instructions": [
+          "Mezcle el chile, el jitomate, la cebolla, el cilantro, el ajo y el jugo de la naranja agria.",
+          "Por último, sazone con sal al gusto."
+        ],
+        "spice_level": "Muy Picante",
+        "flavor_notes": ["Picante", "Cítrico", "Fresco", "Aromático"],
+        "pairs_well_with": [
+          "Carnes a la parrilla",
+          "Tacos",
+          "Platillos de mariscos"
+        ],
+        "additional_notes": "Esta salsa combina el intenso picor del habanero con la frescura del jitomate y el cilantro, y el toque cítrico de la naranja agria. La preparación de los jitomates (escalfados, pelados y desemillados) contribuye a una textura suave y un sabor más refinado. Es una salsa muy picante, así que se recomienda usarla con moderación si no se está acostumbrado a niveles altos de picante."
+      },
+      {
+        "name": "Salsa Pek",
+        "ingredients": [
+          "3 chiles habaneros asados",
+          "100 gramos de pepitas de calabaza sin cáscara y ligeramente tostadas",
+          "2 dientes de ajo pelados",
+          "1/4 de cebolla mediana",
+          "1/4 de taza de agua",
+          "Sal al gusto",
+          "1/4 de taza de aceite de maíz"
+        ],
+        "instructions": [
+          "Licúe los chiles, las pepitas, el ajo, y la cebolla con el agua y la sal al gusto.",
+          "Luego fría la mezcla 10 minutos en un sartén con el aceite caliente."
+        ],
+        "spice_level": "Muy Picante",
+        "flavor_notes": ["Picante", "Tostado", "Cremoso", "Aromático"],
+        "pairs_well_with": [
+          "Carnes a la parrilla",
+          "Tacos",
+          "Verduras asadas"
+        ],
+        "additional_notes": "La Salsa Pek es una salsa tradicional de la cocina yucateca. Se distingue por el uso de pepitas de calabaza que le dan una textura cremosa y un sabor tostado único. A pesar de su alto nivel de picante debido a los habaneros, las pepitas ayudan a suavizar un poco el calor, creando un equilibrio interesante. El proceso de freír la salsa al final ayuda a intensificar los sabores y a integrar todos los ingredientes."
+      },
+      {
+        "name": "Salsa Taquera para Cochinita Pibil",
+        "ingredients": [
+          "1 cebolla blanca mediana picada",
+          "4 cucharadas de aceite",
+          "1 kilo de jitomates picados",
+          "12 chiles habaneros desemillados y picados",
+          "Sal gruesa, al gusto"
+        ],
+        "instructions": [
+          "Acitrone la cebolla en un sartén con el aceite caliente.",
+          "Añada el jitomate y el chile.",
+          "Sazone con sal y deje cocer la preparación hasta que se reduzca ligeramente, revolviendo ocasionalmente para evitar que se queme."
+        ],
+        "spice_level": "Muy Picante",
+        "flavor_notes": ["Picante", "Ahumado", "Ácido", "Salado"],
+        "pairs_well_with": [
+          "Tacos de cochinita pibil",
+          "Carnes a la parrilla"
+        ],
+        "additional_notes": "Esta salsa taquera es especialmente diseñada para acompañar la cochinita pibil, un platillo tradicional de la cocina yucateca. Su nivel de picante es muy alto debido a la cantidad de chiles habaneros, lo que contrasta perfectamente con la carne adobada de la cochinita. La cocción de los ingredientes juntos permite que los sabores se mezclen y desarrollen, creando una salsa robusta y llena de sabor. Se recomienda usar con precaución si no se está acostumbrado a niveles altos de picante."
+      },
+      {
+        "name": "Salsa de Limón para Cochinita Pibil",
+        "ingredients": [
+          "1/2 taza de jugo de limón",
+          "2 cucharadas de aceite",
+          "10 chiles habaneros desemillados y picados",
+          "1 1/2 cucharadas de orégano triturado con la mano",
+          "Sal gruesa, al gusto"
+        ],
+        "instructions": [
+          "Disponga todos los ingredientes en un recipiente y revuelva hasta que la sal se disuelva.",
+          "Esta salsa debe reposar una hora antes de servirse."
+        ],
+        "spice_level": "Muy Picante",
+        "flavor_notes": ["Picante", "Cítrico", "Herbáceo", "Salado"],
+        "pairs_well_with": [
+          "Cochinita pibil"
+        ],
+        "additional_notes": "Esta salsa de limón es especialmente diseñada para acompañar la cochinita pibil, un platillo tradicional de la cocina yucateca. Su nivel de picante es muy alto debido a la cantidad de chiles habaneros, mientras que el limón aporta frescura y acidez que complementan perfectamente la carne adobada. El orégano añade notas herbáceas que enriquecen el perfil de sabor. Variación: Si lo desea, puede mezclar un cuarto de taza de jugo de limón y un cuarto de taza de jugo de naranja para una versión ligeramente más dulce. El tiempo de reposo es crucial para que los sabores se integren completamente."
+      },
+      {
+        "name": "Pico de Gallo Yucateco",
+        "ingredients": [
+          "3 chiles habaneros",
+          "1/4 de taza de jugo de naranja agria",
+          "1/2 cucharadita de orégano",
+          "Sal, al gusto",
+          "1/4 de taza de aceite de oliva",
+          "3 naranjas cortadas en gajos",
+          "5 rábanos chicos picados",
+          "3 cucharadas de cilantro picado",
+          "1/4 de cebolla morada fileteada"
+        ],
+        "instructions": [
+          "Muela los chiles con el jugo de naranja, el orégano, la sal y el aceite de oliva.",
+          "Mezcle el resto de los ingredientes y báñelos con la salsa."
+        ],
+        "spice_level": "Muy Picante",
+        "flavor_notes": ["Picante", "Cítrico", "Fresco", "Herbáceo"],
+        "pairs_well_with": [
+          "Frijoles con puerco",
+          "Carne de venado deshebrada fría",
+          "Carne de res deshebrada fría",
+          "Lechugas frescas"
+        ],
+        "additional_notes": "Este Pico de Gallo Yucateco es una variante regional del clásico pico de gallo mexicano. Se distingue por el uso de chiles habaneros y naranja agria, que le dan un sabor único y muy picante. La combinación de ingredientes frescos como naranjas, rábanos y cilantro aporta una textura crujiente y sabores frescos que contrastan con el picor del habanero. Es ideal para acompañar platillos de carne, especialmente fríos, y aporta un toque de frescura y picante a platos tradicionales yucatecos."
+      },
+      {
+        "name": "Salsa de Ceniza de Habanero",
+        "ingredients": [
+          "10 habaneros carbonizados",
+          "10 dientes de ajo pelados y asados",
+          "El jugo de 3 limones",
+          "Aceite de oliva al gusto",
+          "Sal al gusto"
+        ],
+        "instructions": [
+          "Tener los ajos y habaneros tatemados.",
+          "Moler en un molcajete hasta mezclar bien.",
+          "Añadir el jugo de limón y aceite de oliva hasta obtener la consistencia preferida.",
+          "Sazonar con sal al gusto."
+        ],
+        "spice_level": "Muy Picante",
+        "flavor_notes": ["Ahumado", "Picante", "Cítrico", "Intenso"],
+        "pairs_well_with": [
+          "Tacos al pastor",
+          "Camarones a la parrilla",
+          "Carne asada"
+        ],
+        "additional_notes": "La Salsa de Ceniza de Habanero es una salsa única que se caracteriza por su intenso sabor ahumado y picante. El proceso de carbonizar los habaneros y asar los ajos le da una profundidad de sabor incomparable. El uso del molcajete para moler los ingredientes ayuda a extraer todos los aceites y sabores, creando una textura rústica y auténtica. El jugo de limón aporta un toque de acidez que equilibra el picante y el ahumado. Esta salsa es extremadamente picante, por lo que se recomienda usar con precaución. ¡Disfrútala con tus platillos mexicanos favoritos para una explosión de sabor!"
+      },
+      {
+        "name": "Salsa de Chile de Árbol",
+        "ingredients": [
+          "10 chiles de árbol asados y desemillados",
+          "2 cucharadas de vinagre de manzana",
+          "3 dientes de ajo asados y pelados",
+          "1/4 de cucharadita de comino tostado y molido",
+          "1/4 de cucharadita de orégano seco tostado",
+          "Agua, la mínima necesaria",
+          "Sal al gusto"
+        ],
+        "instructions": [
+          "Asar y desemillar los chiles de árbol.",
+          "Licuar los chiles con el vinagre, el ajo, el comino y el orégano, y muy poca agua.",
+          "Licuar hasta obtener una mezcla suave.",
+          "Sazonar con sal al gusto."
+        ],
+        "spice_level": "Picante",
+        "flavor_notes": ["Picante", "Ahumado", "Ácido", "Aromático"],
+        "pairs_well_with": [
+          "Tacos de carne seca",
+          "Tacos de res",
+          "Carnes a la parrilla"
+        ],
+        "additional_notes": "La Salsa de Chile de Árbol es conocida por su sabor intenso y picante. El proceso de asar los chiles y el ajo aporta notas ahumadas, mientras que el vinagre de manzana añade un toque de acidez que equilibra el calor. Las especias tostadas (comino y orégano) proporcionan una complejidad aromática adicional. Esta salsa es ideal para aquellos que disfrutan de un picante pronunciado en sus platillos. Se recomienda usarla con moderación debido a su intensidad. Es particularmente deliciosa con tacos de carne y carnes a la parrilla, donde su sabor robusto complementa perfectamente los sabores de la carne."
+      },
+      {
+        "name": "Salsa de Chile de Árbol con Xoconostle",
+        "ingredients": [
+          "4 chiles de árbol asados",
+          "2 dientes de ajo asados y pelados",
+          "Sal al gusto",
+          "6 xoconostles asados, pelados y desemillados"
+        ],
+        "instructions": [
+          "Asar los chiles de árbol hasta que estén carbonizados y aromáticos.",
+          "Moler en el molcajete los chiles y el ajo con sal al gusto.",
+          "Agregar los xoconostles asados al molcajete y seguir moliendo hasta que la salsa espese."
+        ],
+        "spice_level": "Picante",
+        "flavor_notes": ["Picante", "Ahumado", "Ácido", "Terroso"],
+        "pairs_well_with": [
+          "Tacos de carne asada",
+          "Tacos al pastor",
+          "Carnes asadas como res o pollo",
+          "Quesadillas",
+          "Verduras asadas"
+        ],
+        "additional_notes": "Esta Salsa de Chile de Árbol con Xoconostle combina el intenso picor del chile de árbol con la acidez única del xoconostle, creando un perfil de sabor complejo y delicioso. El uso del molcajete para preparar la salsa permite extraer todos los sabores y crear una textura rústica. Variante: si lo desea, puede añadir a esta salsa media taza de pulque, una cebolla picada o una taza de nopales cocidos y picados para darle un toque adicional de sabor y textura. Esta salsa es ideal para aquellos que disfrutan de un picante pronunciado con un toque de acidez en sus platillos mexicanos."
+      },
+      {
+        "name": "Salsa Frita de Chile de Árbol con Jitomate",
+        "ingredients": [
+          "1 jitomate mediano",
+          "6 chiles de árbol secos, ligeramente tostados",
+          "2 dientes de ajo, pelados",
+          "1 manojo de cilantro",
+          "1/2 cebolla pequeña",
+          "1/4 taza de aceite de maíz o manteca",
+          "Sal al gusto"
+        ],
+        "instructions": [
+          "Hervir el jitomate en agua durante cinco minutos, luego retirar del fuego y dejar enfriar ligeramente.",
+          "En una licuadora o procesador de alimentos, combinar el jitomate hervido (pelado), los chiles tostados, el ajo, el cilantro y la cebolla. Licuar hasta obtener una mezcla suave.",
+          "En una sartén, calentar el aceite de maíz o la manteca a fuego medio. Verter la salsa licuada y cocinar durante unos cinco minutos, revolviendo ocasionalmente.",
+          "Sazonar con sal al gusto."
+        ],
+        "spice_level": "Medio",
+        "flavor_notes": ["Picante", "Ahumado", "Fresco", "Aromático"],
+        "pairs_well_with": [
+          "Tacos al Pastor",
+          "Enchiladas",
+          "Pollo o Bistec a la Parrilla",
+          "Quesadillas",
+          "Huevos Rancheros"
+        ],
+        "additional_notes": "La Salsa Frita de Chile de Árbol con Jitomate es una salsa versátil y sabrosa que añade un delicioso toque picante a una variedad de platillos, particularmente en la cocina mexicana. El proceso de freír la salsa intensifica los sabores y le da una textura única. Los chiles de árbol tostados aportan un sabor ahumado y picante, mientras que el jitomate y el cilantro añaden frescura. Esta salsa es ideal para aquellos que buscan un nivel medio de picante con un sabor rico y complejo."
+      },
+      {
+      "name": "Salsa de Chile de Árbol Seco",
+      "ingredients": [
+        "4 chiles de árbol secos, tostados en comal",
+        "10 tomates verdes (tomatillos), hervidos",
+        "1/4 de cebolla pequeña",
+        "1 diente de ajo, pelado",
+        "Sal al gusto"
+      ],
+      "instructions": [
+        "Tostar los chiles de árbol secos en un comal o sartén seca hasta que estén aromáticos y ligeramente dorados.",
+        "Hervir los tomates verdes (tomatillos) hasta que estén suaves.",
+        "En una licuadora o procesador de alimentos, combinar los chiles tostados, los tomates verdes hervidos, la cebolla y el ajo. Licuar hasta obtener una mezcla suave.",
+        "Sazonar la salsa con sal al gusto."
+      ],
+      "spice_level": "Medio-Picante",
+      "flavor_notes": ["Picante", "Ahumado", "Ácido", "Fresco"],
+      "pairs_well_with": [
+        "Tacos de Carnitas",
+        "Tacos de Pescado a la Parrilla",
+        "Chilaquiles",
+        "Carne Asada",
+        "Quesadillas"
+      ],
+      "additional_notes": "La Salsa de Chile de Árbol Seco es una salsa vibrante y picante que complementa una amplia variedad de platillos, añadiendo un delicioso toque de sabor. El proceso de tostar los chiles de árbol secos intensifica su sabor y aroma, mientras que los tomates verdes aportan un toque de acidez y frescura. Esta salsa es ideal para aquellos que disfrutan de un nivel de picante medio-alto con un sabor complejo y equilibrado. Su versatilidad la hace perfecta para acompañar desde tacos hasta platillos más elaborados de la cocina mexicana."
+    },
+    {
+      "name": "Salsa Chimichurri de Chile de Árbol",
+      "ingredients": [
+        "3 dientes de ajo, pelados y finamente picados",
+        "1/2 taza de aceite de oliva",
+        "5 chiles de árbol frescos, finamente picados",
+        "5 ramitas de perejil, finamente picado",
+        "5 ramitas de menta, finamente picada",
+        "5 ramitas de albahaca, finamente picada",
+        "5 ramitas de cilantro, finamente picado",
+        "3 bayas de pimienta gorda",
+        "3 clavos de olor",
+        "1 cucharada de pimienta negra molida",
+        "3 hojas de laurel frescas",
+        "1 cucharada de pimentón",
+        "1/2 taza de vinagre de vino blanco",
+        "1/2 taza de agua",
+        "Sal al gusto"
+      ],
+      "instructions": [
+        "En una cacerola, calentar el aceite de oliva a fuego medio. Añadir el ajo picado y sofreír hasta que esté fragante.",
+        "Incorporar los chiles de árbol picados, perejil, menta, albahaca, cilantro, pimienta gorda, clavos, pimienta negra, hojas de laurel, pimentón, vinagre, agua y sal.",
+        "Reducir el fuego a bajo y cocinar a fuego lento durante unos 5 minutos, revolviendo constantemente.",
+        "Probar y ajustar el sazón con más sal si es necesario.",
+        "Transferir la salsa chimichurri a un frasco de vidrio para almacenar."
+      ],
+      "spice_level": "Medio-Picante",
+      "flavor_notes": ["Picante", "Herbáceo", "Ácido", "Aromático"],
+      "pairs_well_with": [
+        "Bistec o Pollo a la Parrilla",
+        "Verduras Asadas",
+        "Empanadas",
+        "Arepas",
+        "Camarones a la Parrilla"
+      ],
+      "additional_notes": "Esta vibrante y sabrosa Salsa Chimichurri de Chile de Árbol es perfecta para añadir un toque picante a carnes a la parrilla y otros platillos. Guárdala en un frasco sellado para su uso posterior. Variación: Sustituye el pimentón por chile guajillo en polvo para un perfil de sabor diferente. Esta salsa combina la tradición del chimichurri argentino con el picante del chile de árbol mexicano, creando una fusión única y deliciosa."
+    },
+    {
+      "name": "Salsa de Chile de Árbol con Tomate y Hierbabuena",
+      "ingredients": [
+        "4 dientes de ajo, asados y pelados",
+        "Sal al gusto",
+        "15 chiles de árbol, pasados por aceite caliente",
+        "3 cucharadas de aceite de oliva",
+        "15 tomates, asados",
+        "Hojas de 4 ramitas de hierbabuena fresca, limpias y finamente rebanadas"
+      ],
+      "instructions": [
+        "En un molcajete, moler los dientes de ajo asados con sal hasta obtener un puré suave.",
+        "Agregar gradualmente los chiles de árbol uno por uno al molcajete, alternando con el aceite de oliva, y continuar moliendo hasta que estén bien incorporados.",
+        "Luego, añadir los tomates asados al molcajete y seguir moliendo hasta que todo esté bien combinado y la mezcla alcance la consistencia deseada.",
+        "Sazonar la salsa con sal adicional si es necesario.",
+        "Finalmente, incorporar las hojas de hierbabuena rebanadas y ajustar el sazón al gusto."
+      ],
+      "spice_level": "Medio-Picante",
+      "flavor_notes": ["Picante", "Ahumado", "Fresco", "Mentolado"],
+      "pairs_well_with": [
+        "Tacos al Pastor",
+        "Pescado a la Parrilla",
+        "Carnitas",
+        "Tostadas",
+        "Verduras a la Parrilla"
+      ],
+      "additional_notes": "Esta Salsa de Chile de Árbol con Tomate y Hierbabuena ofrece un sabor audaz y fresco con un delicioso toque de menta. La combinación del chile de árbol picante con el tomate asado crea una base rica, mientras que la hierbabuena añade un aroma refrescante y único. El uso del molcajete en la preparación ayuda a extraer y mezclar los sabores de manera tradicional. Es un acompañamiento perfecto para diversos platillos mexicanos, añadiendo un toque picante y aromático. Ideal para quienes buscan una salsa con un perfil de sabor complejo y equilibrado."
+    },
+    {
+      "name": "Salsa Macha de Chile de Árbol Seco",
+      "ingredients": [
+        "1 taza de aceite de oliva extra virgen",
+        "1/4 taza de aceite de cacahuate",
+        "20 chiles de árbol secos",
+        "Sal al gusto",
+        "Jugo de 4 limones",
+        "1 cucharada de orégano molido"
+      ],
+      "instructions": [
+        "En una cacerola, mezclar el aceite de oliva y el aceite de cacahuate a fuego medio.",
+        "Agregar los chiles de árbol secos a la mezcla de aceites y freírlos hasta que estén ligeramente dorados y aromáticos. Tener cuidado de no quemarlos.",
+        "Retirar los chiles fritos del aceite y dejarlos enfriar ligeramente. Sazonarlos con sal al gusto.",
+        "En una licuadora o procesador de alimentos, combinar los chiles fritos, el jugo de limón, el orégano molido y el aceite usado para freír.",
+        "Licuar la mezcla hasta obtener una textura gruesa y con trozos.",
+        "Transferir la salsa macha a frascos esterilizados para su almacenamiento."
+      ],
+      "spice_level": "Picante",
+      "flavor_notes": ["Picante", "Ahumado", "Cítrico", "Herbáceo"],
+      "pairs_well_with": [
+        "Carnes a la Parrilla (como bistec o pollo)",
+        "Tacos",
+        "Huevos (revueltos o fritos)",
+        "Verduras a la Parrilla",
+        "Quesadillas"
+      ],
+      "additional_notes": "Esta Salsa Macha de Chile de Árbol Seco es un condimento audaz y lleno de sabor que puede agregar picante y profundidad a una variedad de platillos. La combinación de chiles fritos en aceite con el toque cítrico del limón y el aroma del orégano crea un perfil de sabor complejo y delicioso. Se recomienda almacenarla en frascos esterilizados y sellados para disfrutarla con tus comidas favoritas. Puedes ajustar la cantidad de chile según tu nivel de picante preferido. Esta salsa es particularmente popular en la cocina mexicana y es excelente para añadir un toque picante a platos que de otra manera podrían ser suaves."
+    },
+    {
+      "name": "Salsa de Chipotle Seco con Cacahuates",
+      "ingredients": [
+        "2 chiles chipotle secos",
+        "1/2 taza de agua caliente",
+        "2 jitomates grandes maduros, asados y picados (con piel)",
+        "10 dientes de ajo, asados y picados (con piel)",
+        "1 cucharadita de canela finamente molida",
+        "1 cebolla mediana, finamente rebanada y asada",
+        "2 clavos de olor, molidos",
+        "1 cucharadita de mejorana fresca finamente picada",
+        "1 cucharada de aceite de oliva",
+        "1 cucharada de jugo de limón fresco",
+        "1/3 taza de cacahuates sin sal tostados",
+        "Sal al gusto"
+      ],
+      "instructions": [
+        "En una cacerola a fuego medio, tostar los chiles chipotle secos hasta que estén aromáticos. Dejar enfriar ligeramente, luego quitar las semillas abriéndolos a lo largo.",
+        "Colocar los chipotles sin semillas en una licuadora con la mitad del agua caliente. Licuar hasta obtener un puré suave.",
+        "Agregar los jitomates asados (con piel), el ajo asado, la canela, la cebolla asada, los clavos molidos, la mejorana, el aceite de oliva, el jugo de limón y los cacahuates tostados a la licuadora.",
+        "Licuar la mezcla hasta que esté suave y bien combinada.",
+        "Sazonar la salsa con sal al gusto."
+      ],
+      "spice_level": "Medio-Picante",
+      "flavor_notes": ["Ahumado", "Picante", "Dulce", "Tostado"],
+      "pairs_well_with": [
+        "Pollo a la Parrilla",
+        "Tacos de Carne Asada",
+        "Enchiladas",
+        "Verduras a la Parrilla",
+        "Arroz y Frijoles"
+      ],
+      "additional_notes": "Esta Salsa de Chipotle Seco con Cacahuates es rica y llena de sabor, con un picante ahumado de los chiles chipotle y un toque de nuez de los cacahuates tostados. La combinación de ingredientes asados añade profundidad al sabor, mientras que la canela y los clavos aportan notas especiadas sutiles. Es excelente como condimento o salsa para varios platillos mexicanos. Puedes ajustar la cantidad de chiles chipotle según el nivel de picante deseado. La textura cremosa de los cacahuates complementa perfectamente el sabor ahumado del chipotle, creando una salsa única y versátil."
+    },
+    {
+      "name": "Salsa de Chipotle con Tomate Verde",
+      "ingredients": [
+        "2 chiles chipotle secos, asados y sin semillas",
+        "1 taza de agua caliente",
+        "6 tomatillos (tomates verdes), asados",
+        "1 cebolla mediana, finamente picada",
+        "6 dientes de ajo, asados y pelados",
+        "1/4 taza de cilantro fresco picado",
+        "Sal al gusto"
+      ],
+      "instructions": [
+        "En un tazón pequeño, remojar los chiles chipotle secos en el agua caliente durante unos 10 minutos para ablandarlos.",
+        "Después de remojar, transferir los chiles chipotle junto con el agua de remojo a una licuadora.",
+        "Agregar los tomatillos asados, la cebolla picada, el ajo asado y el cilantro a la licuadora.",
+        "Licuar todo hasta obtener una mezcla suave y bien combinada.",
+        "Sazonar la salsa con sal al gusto."
+      ],
+      "spice_level": "Medio",
+      "flavor_notes": ["Ahumado", "Ácido", "Picante", "Fresco"],
+      "pairs_well_with": [
+        "Tacos (especialmente de pollo o bistec a la parrilla)",
+        "Enchiladas",
+        "Huevos (como revueltos o fritos)",
+        "Pescado a la Parrilla",
+        "Quesadillas"
+      ],
+      "additional_notes": "Esta Salsa de Chipotle con Tomate Verde es una salsa ácida y ahumada que complementa una variedad de platillos mexicanos. Los tomatillos asados aportan un sabor distintivo mientras que los chiles chipotle proporcionan un agradable toque de picante. La combinación de ingredientes frescos y asados crea un perfil de sabor complejo y equilibrado. El cilantro añade una nota fresca que contrasta con el ahumado del chipotle. Esta salsa es versátil y puede usarse como condimento o dip para tus comidas favoritas. Puedes ajustar la cantidad de chiles chipotle según tu preferencia de picante."
+    }
       
 
 

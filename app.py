@@ -8,70 +8,34 @@ from langchain.schema import HumanMessage, SystemMessage
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 from PIL import Image
-import random
 from dotenv import load_dotenv
 
 load_dotenv()
 
 st.set_page_config(page_title="AIbuelita: Salsa Recipes", page_icon="🌶️", layout="wide")
 
-COLORS = {
-    "terra_cotta": "#E07A5F",
-    "marigold": "#F2CC8F",
-    "turquoise": "#81B29A",
-    "indigo": "#3D405B",
-    "cream": "#F4F1DE",
-    "white": "#FFFFFF",
-    "black": "#000000"
-}
+# Define accent colors that work well in both light and dark themes
+ACCENT_COLOR = "#E07A5F"  # Terra Cotta
+ACCENT_COLOR_HOVER = "#F2CC8F"  # Marigold
 
 st.markdown(f"""
 <style>
-    .stApp {{
-        background-color: {COLORS['cream']};
-        color: {COLORS['indigo']};
-    }}
     .stButton>button {{
-        background-color: {COLORS['terra_cotta']};
-        color: {COLORS['white']};
+        background-color: {ACCENT_COLOR};
+        color: white;
         font-weight: bold;
-        border: 2px solid {COLORS['marigold']};
-        border-radius: 10px;
-        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        padding: 0.5rem 1rem;
         transition: all 0.3s;
     }}
     .stButton>button:hover {{
-        background-color: {COLORS['marigold']};
-        color: {COLORS['indigo']};
-        border-color: {COLORS['terra_cotta']};
-    }}
-    .st-bb {{
-        background-color: {COLORS['turquoise']};
-    }}
-    .st-at {{
-        background-color: {COLORS['marigold']};
-    }}
-    h1, h2, h3 {{
-        color: {COLORS['indigo']};
-    }}
-    .stTextInput>div>div>input {{
-        background-color: {COLORS['white']};
-        color: {COLORS['indigo']};
-        border: 2px solid {COLORS['turquoise']};
-        border-radius: 10px;
-    }}
-    .stSelectbox>div>div>div {{
-        background-color: {COLORS['white']};
-        color: {COLORS['indigo']};
-        border: 2px solid {COLORS['turquoise']};
-        border-radius: 10px;
-    }}
-    .sidebar .sidebar-content {{
-        background-color: {COLORS['marigold']};
+        background-color: {ACCENT_COLOR_HOVER};
     }}
 </style>
 """, unsafe_allow_html=True)
 
+# Rest of the code remains the same
 user_avatar = Image.open("images/User.png")
 bot_avatar = Image.open("images/AIbuelita.png")
 
@@ -106,7 +70,7 @@ def process_query(query, conocimiento, vectorizer, X):
 3. For general questions, provide relevant information and still relate it to {salsa_recomendada['name']}.
 4. Always maintain a warm, grandmotherly tone in your responses.
 5. Conclude your response by mentioning why {salsa_recomendada['name']} is a good choice.
-6. If the user specifically asks for all salsa names or a complete list of salsas, provide the full list of salsa names without any additional commentary.
+6. If the user specifically asks for all salsa names or a complete list of salsas, provide the full list of salsa names using {salsa_names_str} without any additional commentary.
 
 Respond in a concise yet informative manner, always in Spanish, always including information about {salsa_recomendada['name']}, unless specifically asked for the full list of salsas."""
 
