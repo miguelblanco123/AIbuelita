@@ -77,7 +77,7 @@ bot_avatar = Image.open("images/AIbuelita.png")
 
 chat = ChatOpenAI(
     model_name="gpt-4o-mini",
-    openai_api_key=os.getenv("OPENAI_API_KEY"),
+    openai_api_key = st.secrets.get("OPENAI_API_KEY"),
 )
 
 @st.cache_resource
@@ -99,7 +99,7 @@ def process_query(query, conocimiento, vectorizer, X):
 
     system_prompt = f"""You are AIbuelita, an AI assistant specialized in Mexican salsas. Your task is to respond to the user's query about salsas and always recommend a salsa, even for general questions. Follow these guidelines:
 
-1. For specific dish queries, recommend a suitable salsa and explain why it's a good match.
+1. For specific dish queries, recommend a suitable salsa and explain why it's a good match. NEVER change the ingredients section, always give them exactly as provided in the dataset.
 2. For general questions, provide relevant information and still recommend a salsa that relates to the query.
 3. If asked to list salsas, use ONLY the following list of salsas: {salsa_names_str}. Do not invent or add any salsas not in this list.
 4. For unusual requests (like the "weirdest" salsa), use your knowledge creatively to recommend an interesting salsa from the provided list.
